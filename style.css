@@ -258,9 +258,9 @@ footer a:hover {
 .page6666c article img {
     display: block;
     float: left;
-    height: 24em;
-    margin-right: 1em;
-    margin-bottom: 2em;
+    height: 15em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
 }
 
 /* über mich */
@@ -305,6 +305,13 @@ footer a:hover {
     column-gap: 3em;
     position: relative;
     top: -3.5em;
+}
+
+.page8ac4f article,
+.page4f9a2 article {
+-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;	
 }
 
 h2#vielen-dank-für-ihre-nachricht {
