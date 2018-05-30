@@ -156,7 +156,7 @@ article a[rel="footnote"]:before, article a.footnote-return:before {
 
 article blockquote {
     margin-left: 2em;
-    font-family: 'Kalam', cursive;
+    font-family: 'Malak', cursive;
 }
 
 article li {
@@ -179,7 +179,7 @@ form label {
 }
 
 form input {
-    font-family: 'Droid Serif', serif;    
+    font-family: 'Droid Serif', serif;
 }
 
 form textarea {
@@ -195,8 +195,31 @@ form input[type="submit"] {
     padding: .25em 3em;
 }
 
+button.enableIframe {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+button.enableIframe div {
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    color: #5e8feb;
+    width: 372px;
+    height: 108px;
+    padding-left: 71px;
+    padding-top: 70px;
+}
+button.enableIframe div span {
+    display: block;
+    font-size: 80%;
+}
+
 iframe {
     width: 100%
+}
+iframe.preview {
+    overflow: hidden;
 }
 
 /* Footer */
@@ -293,7 +316,7 @@ footer a:hover {
 }
 .page62a57 article ol {
     margin-left: -1.5em;
-}    
+}
 .page62a57 article li {
     text-align: justify;
 }
@@ -311,7 +334,7 @@ footer a:hover {
 .page4f9a2 article {
 -webkit-column-break-inside: avoid;
           page-break-inside: avoid;
-               break-inside: avoid;	
+               break-inside: avoid;
 }
 
 h2#vielen-dank-für-ihre-nachricht {
